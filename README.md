@@ -18,41 +18,28 @@ Chain requests to create test suites by using pre-request and test scripts to pa
 Easily share your findings:
 Document your discoveries in a collection and communicate them to developers by sharing the collection to a team workspace.
 
+**Sample API specification:
+
 <table>
 <thead>
 <tr>
-<th align="left">resource</th>
+<th align="left">endpoints</th>
 <th align="left">description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left"><code>/api/forecasts/places</code></td>
-<td align="left">returns a list of places</td>
+<td align="left"><code>/api/add?value1=8&value2=4.2</code></td>
+<td align="left">returns a sum of passed values</td>
 </tr>
 <tr>
-<td align="left"><code>/api/forecasts/places/temperature</code></td>
-<td align="left">returns a list of places, filtered by temperature</td>
+<td align="left"><code>/api/validate?value=123</code></td>
+<td align="left">validates passed parameter and returns type</td>
 </tr>
 <tr>
 <td align="left"><code>/api/forecasts/places/winds</code></td>
 <td align="left">returns a list of places, filtered by winds</td>
 </tr>
-<tr>
-<td align="left"><code>/api/forecasts/phenomenon-types</code></td>
-<td align="left">returns a list of phenomenon types</td>
-</tr>
-<tr>
-<td align="left"><code>/api/forecasts/time-of-day-types</code></td>
-<td align="left">returns a list of time of day types</td>
-</tr>
-<tr>
-<td align="left"><code>/api/forecasts/place-types</code></td>
-<td align="left">returns a list of place types</td>
-</tr>
-<tr>
-<td align="left"><code>/api/forecasts/wind-types</code></td>
-<td align="left">returns a list of wind types</td>
-</tr>
+
 </tbody>
 </table>
