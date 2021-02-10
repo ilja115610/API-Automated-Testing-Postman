@@ -1,0 +1,352 @@
+{
+	"info": {
+		"_postman_id": "627d7c98-2038-4e41-9802-ab9074a72414",
+		"name": "Cleveron API Testing",
+		"description": "This is test task implementation of API testing with automated scripts in Postman.\r\n\r\nCreated by Ilja Veselov.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/add end-point",
+			"item": [
+				{
+					"name": "Adding two numbers increment values by 0.5",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"let first = pm.environment.get(\"first\");\r",
+									"let second = pm.environment.get(\"second\");\r",
+									"let expectedValue = pm.environment.get(\"expectedValue\");\r",
+									"\r",
+									"\r",
+									"if(!first&&!second&&!expectedValue){\r",
+									"pm.environment.set('first', 1.0);\r",
+									"pm.environment.set('second', 1.0);\r",
+									"pm.environment.set('expectedValue', 2.0);\r",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let first = pm.environment.get(\"first\");\r",
+									"let second = pm.environment.get(\"second\");\r",
+									"let expectedValue = pm.environment.get(\"expectedValue\");\r",
+									"\r",
+									"\r",
+									"if(first==second){\r",
+									"    let value1 = parseFloat(first) + 0.5;\r",
+									"pm.environment.set('first', value1);\r",
+									"}\r",
+									"else{\r",
+									"    let value2 = parseFloat(second) + 0.5;\r",
+									"pm.environment.set('second',value2);\r",
+									"}\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"let jsonData = pm.response.json();\r",
+									"let addition = parseFloat(expectedValue) + 0.5;\r",
+									"pm.environment.set('expectedValue',addition);\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(parseFloat(jsonData.result)).eqls(parseFloat(expectedValue)) ;\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/add?value1={{first}}&value2={{second}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"add"
+							],
+							"query": [
+								{
+									"key": "value1",
+									"value": "{{first}}"
+								},
+								{
+									"key": "value2",
+									"value": "{{second}}"
+								}
+							]
+						},
+						"description": "Incrementing path variables (value1 and value2) at every method call by 0.5"
+					},
+					"response": []
+				},
+				{
+					"name": "Passing null to value1/ value2 and to both values",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let firstnNull = pm.environment.get(\"firstnNull\");\r",
+									"let secondNull = pm.environment.get(\"secondNull\");\r",
+									"let counter = pm.environment.get(\"counter\");\r",
+									"\r",
+									" pm.environment.set(\"firstNull\",null);\r",
+									"pm.environment.set(\"secondNull\",null);\r",
+									"\r",
+									"\r",
+									"\r",
+									"counter = parseFloat(counter)+1;\r",
+									"pm.environment.set(\"counter\",counter);\r",
+									"\r",
+									"if(parseFloat(counter)%2!=0&&parseFloat(counter)%3!=0){\r",
+									"    pm.environment.set(\"secondNull\",\"value2\");\r",
+									"}\r",
+									"else if(parseFloat(counter)%2==0){\r",
+									"    pm.environment.set(\"firstNull\",\"value1\");\r",
+									"}\r",
+									"else if(parseFloat(counter)%3==0){\r",
+									"    pm.environment.set(\"firstNull\",null);\r",
+									"    pm.environment.set(\"secondNull\",null);\r",
+									"}\r",
+									"\r",
+									"pm.test(\"Status code is 400\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});\r",
+									"\r",
+									"let jsonData = pm.response.json().error;\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(jsonData).to.include(\"Bad Request\");\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/add?{{firstNull}}=5&{{secondNull}}=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"add"
+							],
+							"query": [
+								{
+									"key": "{{firstNull}}",
+									"value": "5"
+								},
+								{
+									"key": "{{secondNull}}",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Passing a String to value1/ value2 and to both values",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let string1 = pm.environment.get(\"string1\");\r",
+									"let string2 = pm.environment.get(\"string2\");\r",
+									"\r",
+									"let counter = pm.environment.get(\"counter\");\r",
+									"\r",
+									" pm.environment.set(\"string1\",\"abc\");\r",
+									" pm.environment.set(\"string2\",\"abc\");\r",
+									"\r",
+									"counter = parseFloat(counter)+1;\r",
+									"pm.environment.set(\"counter\",counter);\r",
+									"\r",
+									"if(parseFloat(counter)%2!=0&&parseFloat(counter)%3!=0){\r",
+									"    pm.environment.set(\"string1\",1);\r",
+									"}\r",
+									"else if(parseFloat(counter)%2==0){\r",
+									"    pm.environment.set(\"string2\",1);\r",
+									"}\r",
+									"else if(parseFloat(counter)%3==0){\r",
+									"    pm.environment.set(\"string1\",\"abc\");\r",
+									"    pm.environment.set(\"string2\",\"bcd\");\r",
+									"}\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"both parameters must be numbers\");\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/add?value1={{string1}}&value2={{string2}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"add"
+							],
+							"query": [
+								{
+									"key": "value1",
+									"value": "{{string1}}"
+								},
+								{
+									"key": "value2",
+									"value": "{{string2}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "/validate end-point",
+			"item": [
+				{
+					"name": "String validation",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"let pathVariable = pm.environment.get(\"variable\");\r",
+									"let bigInteger = pm.environment.get(\"bigInteger\");\r",
+									"let smallInteger = pm.environment.get(\"smallInteger\");\r",
+									"let veryLong = pm.environment.get(\"veryLong\");\r",
+									"let mediumString = pm.environment.get(\"mediumString\");\r",
+									"let smallString = pm.environment.get(\"smallString\");\r",
+									"\r",
+									"\r",
+									"if(pathVariable===\"\"){\r",
+									"   bigInteger = parseInt(bigInteger)+1;\r",
+									"   pm.environment.set(\"bigInteger\",bigInteger);\r",
+									"    pm.environment.set(\"variable\",bigInteger);\r",
+									"}\r",
+									"else if(parseInt(pathVariable)>10000){\r",
+									"    smallInteger = parseInt(smallInteger)-1;\r",
+									"    pm.environment.set(\"smallInteger\",smallInteger);\r",
+									"    pm.environment.set(\"variable\",smallInteger);\r",
+									"}\r",
+									"\r",
+									"else if(parseInt(pathVariable)<10000){\r",
+									"    veryLong +=1;\r",
+									"    if(String(veryLong).length>35){\r",
+									"        veryLong = \"qwertyuiopasdfghjklzx\";\r",
+									"    }\r",
+									"    pm.environment.set(\"veryLong\",veryLong);\r",
+									"    pm.environment.set(\"variable\",veryLong);\r",
+									"}\r",
+									"\r",
+									"else if(String(pathVariable).length>20){\r",
+									"    mediumString = String(mediumString).slice(0,-1);\r",
+									"    if(String(mediumString.length==11)){\r",
+									"        mediumString = \"qwertyuioplkjhgfdsaz\";\r",
+									"    }\r",
+									"    pm.environment.set(\"mediumString\",mediumString);\r",
+									"    pm.environment.set(\"variable\",mediumString);\r",
+									"}\r",
+									"\r",
+									"else if(String(pathVariable).length>10){\r",
+									"    smallString = String(smallString).slice(0,-1);\r",
+									"    if(String(mediumString.length==4)){\r",
+									"        mediumString = \"qwertyuiop\";\r",
+									"    }\r",
+									"    pm.environment.set(\"smallString\",smallString);\r",
+									"    pm.environment.set(\"variable\",smallString);\r",
+									"}\r",
+									"\r",
+									"else{\r",
+									"    pm.environment.set(\"variable\",\"\");\r",
+									"}\r",
+									"\r",
+									"\r",
+									"let jsonData = pm.response.json().valueType;\r",
+									"pm.test(\"Testing multiple values\", function () {\r",
+									"    pm.expect(jsonData).to.be.oneOf(['big integer', 'small integer', 'very long string', 'medium string','very short string']);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/validate/?value={{variable}}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"validate",
+								""
+							],
+							"query": [
+								{
+									"key": "value",
+									"value": "{{variable}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
