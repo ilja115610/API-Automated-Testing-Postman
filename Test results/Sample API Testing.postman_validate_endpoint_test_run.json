@@ -1,0 +1,244 @@
+{
+	"id": "cbb02b12-97e7-4301-bea2-cedea94f6fe6",
+	"name": "Cleveron API Testing",
+	"timestamp": "2021-02-04T13:15:55.561Z",
+	"collection_id": "627d7c98-2038-4e41-9802-ab9074a72414",
+	"folder_id": "602a38a9-0900-4fbb-9e93-9276a54ff687",
+	"environment_id": "1974ae60-08e9-4c43-b77f-2e66a4e7106a",
+	"totalPass": 49,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "2c372a6b-6d86-4686-b3c7-130252b29509",
+			"name": "String validation",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Testing multiple values": true
+			},
+			"testPassFailCounts": {
+				"Testing multiple values": {
+					"pass": 49,
+					"fail": 1
+				}
+			},
+			"times": [
+				18,
+				3,
+				5,
+				7,
+				6,
+				4,
+				8,
+				4,
+				4,
+				6,
+				4,
+				7,
+				4,
+				5,
+				6,
+				5,
+				3,
+				7,
+				7,
+				5,
+				6,
+				8,
+				6,
+				4,
+				4,
+				5,
+				8,
+				4,
+				6,
+				8,
+				4,
+				13,
+				4,
+				4,
+				9,
+				6,
+				7,
+				5,
+				6,
+				13,
+				6,
+				6,
+				6,
+				5,
+				3,
+				3,
+				5,
+				5,
+				6,
+				9
+			],
+			"allTests": [
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": false
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				},
+				{
+					"Testing multiple values": true
+				}
+			]
+		}
+	],
+	"count": 50,
+	"totalTime": 302,
+	"collection": {
+		"requests": [
+			{
+				"id": "2c372a6b-6d86-4686-b3c7-130252b29509",
+				"method": "GET"
+			}
+		]
+	}
+}

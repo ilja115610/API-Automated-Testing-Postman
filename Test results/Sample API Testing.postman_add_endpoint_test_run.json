@@ -1,0 +1,1611 @@
+{
+	"id": "96e47d28-2504-495b-be7c-8f7a0162b9cc",
+	"name": "Cleveron API Testing",
+	"timestamp": "2021-02-04T13:08:19.852Z",
+	"collection_id": "627d7c98-2038-4e41-9802-ab9074a72414",
+	"folder_id": "d41000e6-bc97-4f98-8044-0bd96b88e308",
+	"environment_id": "1974ae60-08e9-4c43-b77f-2e66a4e7106a",
+	"totalPass": 599,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "eae89830-1212-44b5-b2c5-0573a8083803",
+			"name": "Adding two numbers increment values by 0.5",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 99,
+					"fail": 1
+				}
+			},
+			"times": [
+				14,
+				9,
+				4,
+				12,
+				7,
+				10,
+				10,
+				5,
+				9,
+				5,
+				5,
+				18,
+				11,
+				6,
+				8,
+				4,
+				4,
+				8,
+				5,
+				5,
+				7,
+				8,
+				7,
+				7,
+				6,
+				6,
+				5,
+				5,
+				9,
+				4,
+				5,
+				5,
+				6,
+				4,
+				10,
+				5,
+				5,
+				6,
+				6,
+				10,
+				9,
+				7,
+				14,
+				6,
+				8,
+				8,
+				5,
+				5,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				4,
+				9,
+				4,
+				6,
+				4,
+				7,
+				4,
+				5,
+				4,
+				7,
+				4,
+				4,
+				6,
+				4,
+				7,
+				4,
+				7,
+				6,
+				12,
+				8,
+				7,
+				5,
+				6,
+				8,
+				11,
+				8,
+				7,
+				4,
+				7,
+				5,
+				4,
+				6,
+				8,
+				6,
+				6,
+				4,
+				6,
+				5,
+				7,
+				6,
+				4,
+				8,
+				8,
+				11,
+				4,
+				28
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "f4e00c28-46bb-46ef-895b-b2a211f100ee",
+			"name": "Passing null to value1/ value2 and to both values",
+			"time": 10,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 100,
+					"fail": 0
+				}
+			},
+			"times": [
+				32,
+				7,
+				6,
+				6,
+				11,
+				5,
+				11,
+				14,
+				10,
+				16,
+				6,
+				6,
+				7,
+				8,
+				12,
+				11,
+				6,
+				10,
+				7,
+				5,
+				7,
+				8,
+				6,
+				5,
+				7,
+				9,
+				9,
+				6,
+				7,
+				16,
+				8,
+				11,
+				17,
+				8,
+				6,
+				6,
+				10,
+				6,
+				8,
+				6,
+				14,
+				6,
+				8,
+				6,
+				12,
+				10,
+				10,
+				7,
+				4,
+				6,
+				12,
+				5,
+				5,
+				5,
+				8,
+				21,
+				10,
+				8,
+				9,
+				6,
+				7,
+				11,
+				7,
+				5,
+				9,
+				6,
+				10,
+				11,
+				10,
+				10,
+				4,
+				10,
+				12,
+				5,
+				6,
+				8,
+				8,
+				12,
+				6,
+				8,
+				6,
+				8,
+				4,
+				8,
+				7,
+				6,
+				7,
+				8,
+				7,
+				12,
+				6,
+				10,
+				7,
+				5,
+				5,
+				7,
+				9,
+				7,
+				6,
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "08fd6708-b70f-497d-bb30-1bfd1d99f3d1",
+			"name": "Passing a String to value1/ value2 and to both values",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 100,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 100,
+					"fail": 0
+				}
+			},
+			"times": [
+				18,
+				11,
+				12,
+				15,
+				12,
+				8,
+				17,
+				7,
+				8,
+				17,
+				14,
+				22,
+				7,
+				12,
+				11,
+				10,
+				12,
+				18,
+				11,
+				11,
+				10,
+				10,
+				9,
+				10,
+				9,
+				15,
+				16,
+				8,
+				9,
+				13,
+				11,
+				7,
+				13,
+				11,
+				14,
+				11,
+				10,
+				8,
+				8,
+				8,
+				7,
+				8,
+				16,
+				17,
+				9,
+				8,
+				9,
+				10,
+				24,
+				12,
+				8,
+				15,
+				10,
+				13,
+				12,
+				14,
+				8,
+				11,
+				13,
+				12,
+				9,
+				11,
+				17,
+				10,
+				14,
+				12,
+				12,
+				12,
+				11,
+				13,
+				10,
+				13,
+				10,
+				9,
+				8,
+				12,
+				15,
+				14,
+				11,
+				11,
+				9,
+				15,
+				13,
+				15,
+				10,
+				11,
+				12,
+				11,
+				19,
+				15,
+				13,
+				11,
+				15,
+				12,
+				10,
+				8,
+				13,
+				8,
+				8,
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 100,
+	"totalTime": 2693,
+	"collection": {
+		"requests": [
+			{
+				"id": "eae89830-1212-44b5-b2c5-0573a8083803",
+				"method": "GET"
+			},
+			{
+				"id": "f4e00c28-46bb-46ef-895b-b2a211f100ee",
+				"method": "GET"
+			},
+			{
+				"id": "08fd6708-b70f-497d-bb30-1bfd1d99f3d1",
+				"method": "GET"
+			}
+		]
+	}
+}
