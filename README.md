@@ -36,10 +36,42 @@ Document your discoveries in a collection and communicate them to developers by 
 <td align="left"><code>/api/validate?value=123</code></td>
 <td align="left">validates passed parameter and returns type</td>
 </tr>
-<tr>
-<td align="left"><code>/api/forecasts/places/winds</code></td>
-<td align="left">returns a list of places, filtered by winds</td>
-</tr>
-
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th align="left">Value</th>
+<th align="left">Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>empty String ("")</code></td>
+<td align="left">returns null</td>
+</tr>
+  <tr>
+<td align="left"><code>Integer > 10000</code></td>
+<td align="left">returns big Integer</td>
+</tr>
+  <tr>
+<td align="left"><code>Integer < 10000 </code></td>
+<td align="left">returns small Integer</td>
+</tr>
+  <tr>
+<td align="left"><code>String with lenght > 20</code></td>
+<td align="left">return very long String</td>
+</tr>
+  <tr>
+<td align="left"><code>String with 11 < length < 20 </code></td>
+<td align="left">returns medium String</td>
+</tr>
+  <tr>
+<td align="left"><code>String with 4 < length < 10</code></td>
+<td align="left">returns small String</td>
+</tr>
+  <tr>
+<td align="left"><code>String with lenght < 3</code></td>
+<td align="left">returns very short String</td>
+</tr>
