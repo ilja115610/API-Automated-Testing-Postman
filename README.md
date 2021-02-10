@@ -18,7 +18,7 @@ Chain requests to create test suites by using pre-request and test scripts to pa
 Easily share your findings:
 Document your discoveries in a collection and communicate them to developers by sharing the collection to a team workspace.
 
-**Sample API specification:
+**Sample API specification:**
 
 <table>
 <thead>
@@ -29,11 +29,11 @@ Document your discoveries in a collection and communicate them to developers by 
 </thead>
 <tbody>
 <tr>
-<td align="left"><code>/api/add?value1=8&value2=4.2</code></td>
+<td align="left"><code>GET: /api/add?value1=8&value2=4.2</code></td>
 <td align="left">returns a sum of passed values</td>
 </tr>
 <tr>
-<td align="left"><code>/api/validate?value=123</code></td>
+<td align="left"><code>GET: /api/validate?value=123</code></td>
 <td align="left">validates passed parameter and returns type</td>
 </tr>
 </tbody>
@@ -75,3 +75,5 @@ Document your discoveries in a collection and communicate them to developers by 
 <td align="left"><code>String with lenght < 3</code></td>
 <td align="left">returns very short String</td>
 </tr>
+
+Explaratory testing plan, test collections and test runs for given API can be found above.
