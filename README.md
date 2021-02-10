@@ -76,4 +76,5 @@ Document your discoveries in a collection and communicate them to developers by 
 <td align="left">returns very short String</td>
 </tr>
 
+
 Explaratory testing plan, test collections and test runs for given API can be found above.
